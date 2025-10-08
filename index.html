@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Gym Control</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <!-- LOGO -->
+    <h1 id="logo">GYM CONTROL</h1>
+    <!-- Huvud sektionen av hemsidan -->
+    <header id="container">
+      <nav id="navbar">
+        <a href="#calis">CALISTHENICS </a>
+        <a href="#powerlifting">POWERLIFTING</a>
+        <a href="#bodyBuilding">BODYBUILDING</a>
+        <a href="#footer">Räkna KCAL</a>
+      </nav>
+      <div id="head">
+        <h2>OLIKA SÄTT ATT GYMMA</h2>
+        <p>Det finns väldigt många olika sätt att gymma på, många tycker att det är tråkigt att träna, men de flesta som tränar på dessa sätt nedan brukar <b id="rosa-text">älska</b> träning.</p>
+      </div>
+    </header>
+    <!-- Mitten sektionen av hemsidan med majoriteten innehåll -->
+    <main>
+      <section id="calis">
+        <h3>CALISTHENICS</h3>
+        <img id="calisImage" src="calisthenics.jpg" alt="Five 2D animated individuals performing calisthenics exercises">
+        <p>Calisthenics är träning med kroppsvikten som motstånd, där man bygger styrka, rörlighet och kontroll utan utrustning.
+        </p>
+        <p>
+          Övningar som armhävningar, pull-ups och knäböj tränar hela kroppen.
+        </p>
+        <p>
+          Det är ett enkelt och effektivt sätt att bli stark och smidig – var som helst, när som helst.
+        </p>
+      </section>
+      <section id="powerlifting">
+        <h3>POWERLIFTING</h3>
+        <img id="powerImage" src="powerlifting.png" alt="Three 2D animated individuals performing powerlifting exercises">
+        <p>Powerlifting är en styrkesport som fokuserar på tre lyft: knäböj, bänkpress och marklyft. </p>
+        <p>Målet är att lyfta så tungt som möjligt i varje moment. Träningen bygger styrka, teknik och mental fokus, och passar alla som vill utveckla maximal kraft och uthållighet.</p>
+      </section>
+      <section id="bodyBuilding">
+        <h3>BODYBUILDING</h3>
+        <img id="bodybImage" src="bodybuilding.jpg" alt="A bodybuilder posing">
+        <p>Bodybuilding är en träningsform som fokuserar på att bygga muskler, forma kroppen och minska fettprocenten. Genom styrketräning och noggrann kost skapas en balanserad och estetisk fysik. Målet är inte bara styrka, utan också symmetri och muskeldefinition.</p>
+      </section>
+      <!-- Pil för att återvända längst upp i sidan -->
+      <div id="arrow"><a href="#logo">⇧</a></div>
+    </main>
+    <!-- Längst ner i hemsidan med miniräknare -->
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footer-info">
+          <h4>Här har du en miniräknare som du kan använda för att räkna dina kalorier och få bättre koll på ditt dagliga intag.</h4>
+        </div>
+        <div class="calculator-head">
+          <input id="display" readonly>
+          <div class="calculator-inner">
+            <button onclick="clearDisplay('c')" class="upperbtn">C</button>
+            <button onclick="appendToDisplay('+')" class="upperbtn">+</button>
+            <button onclick="appendToDisplay('%')" class="upperbtn">%</button>
+            <button onclick="appendToDisplay('/')" class="operatorbtn">/</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('*')" class="operatorbtn">X</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('-')" class="operatorbtn">-</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('+')" class="operatorbtn">+</button>
+            <button onclick="appendToDisplay('null')">n</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate('=')" class="operatorbtn">=</button>
+            <script src="calc.js"></script>
+          </div>
+          
+        </div>
+        <p>© 2025 Gym Control. Alla rättigheter förbehållna.</p>
+      </div>
+    </footer>
+    <script src="gym.js"></script>
+  </body>
+  </html>
+  
