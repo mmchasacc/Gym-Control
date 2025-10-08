@@ -19,7 +19,7 @@
 }
 
 #display {
-    padding: 3px 2px;;
+    padding: 3px 2px;
     margin-bottom: 10px;
     border-radius: 5px;
     outline: none;
@@ -38,37 +38,40 @@
     height: 50px;
     width: 50px;
     color: white;
-    background: rgb(52, 52, 52);
     font-size: 30px;
     font-weight: 700;
     cursor: pointer;
 }
 
-.calculator-inner button:hover {
+button {
+    background-color: rgb(54, 54, 54);
+}
+button:hover {
+    background-color: rgb(45, 45, 45);
+}
+button:active {
     background-color: rgb(38, 38, 38);
 }
-.calculator-inner button:active {
-    background-color: rgb(28, 28, 28);
-}
+
 
 .operatorbtn {
-    background-color: rgb(0, 78, 21);
+    background-color: rgb(40, 40, 40);
 }
 .operatorbtn:hover {
-    background-color: rgb(0, 65, 17);
+    background-color: rgb(30, 30, 30);
 }
 .operatorbtn:active {
-    background-color: rgb(0, 45, 16);
+    background-color: rgb(17, 17, 17);
 }
 
 .upperbtn {
-    background-color: rgb(89, 89, 89);
+    background-color: rgb(61, 61, 61);
 }
 .upperbtn:hover {
-    background-color: rgb(76, 76, 76);
+    background-color: rgb(52, 52, 52);
 }
 .upperbtn:active {
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(45, 45, 45);
 }
 
 footer .calculator-head .calculator-inner button:hover{
