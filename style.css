@@ -103,7 +103,8 @@ header div h2 {
     text-shadow: 2px 5px 0px black;
 }
 header div p {
-    font-size: 150%;
+    font-size: 24px;
+    
 }
 
 
@@ -156,20 +157,7 @@ section h3 {
     text-shadow: 0 0 10px rgb(180, 180, 180);
 }
 
-/* 
-#calisImage {
 
-}
-
-
-#bodybImage {
-
-}
-
-#powerImage {
-    
-    
-} */
 
 /* ------------------------------- */
 /* ------------------------------- */
@@ -258,6 +246,10 @@ main div {
     header div h1 {
         font-size: 50px;
     }
+
+    header div p {
+        font-size: 26px;
+    }
     /* ---------------- */
     /* ---------------- */
     main {
@@ -299,10 +291,10 @@ main div {
     }
     
     header nav {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-around;
-        gap: 5px;
+        gap: 5px; */
         
     }
     header nav a {
@@ -350,15 +342,11 @@ main div {
     body {
         /* background: yellow; */
     }
-
-    header {
-        
-    }
     
     header nav {
-        flex-wrap: nowrap;
+        /* flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-around; */
         gap: 20px;
         flex-grow: 1;
         padding: 10px;
@@ -366,6 +354,10 @@ main div {
     }
     header nav a {
         font-size: 35px;
+    }
+
+    header div p {
+        font-size: 28px;
     }
 
     main {
@@ -388,10 +380,14 @@ main div {
     body {
         /* background-color: purple; */
     }
+
+    header div p {
+        font-size: 32px;
+    }
     main {
-        display: flex;
+        /* display: flex;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: flex-start; */
         
     }
     main section {
